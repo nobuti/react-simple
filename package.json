@@ -1,10 +1,9 @@
 {
   "name": "react-starter",
   "version": "0.0.1",
-  "description": "React starter kit using browserify",
+  "description": "React starter kit using webpack",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --compilers js:babel-register",
     "lint": "./node_modules/.bin/eslint assets",
     "build": "./node_modules/.bin/webpack --progress --profile --colors",
     "dev": "./node_modules/.bin/webpack-dev-server --progress --profile --colors --hot"
